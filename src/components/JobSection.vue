@@ -1,60 +1,52 @@
 <template>
     <section class="section">
-            <div class="columns is-multiline">
-                <div class="column is-full-mobile is-full-tablet is-half-desktop">
-                    <JobListing/>
+        <div class="tile is-ancestor">
+<!--            Loop through getting all odd elements-->
+            <div class="tile is-6 is-vertical is-parent">
+                <div class="tile is-child">
+                    <JobListing v-bind:workplace="workHistory[0]"/>
                 </div>
 
-                <div class="column is-full-mobile is-full-tablet is-half-desktop">
-                    <div class="job-listing shadow-box">
-                        <div class="columns job-card-header">
-                            <div class="column has-text-left-tablet has-text-left-desktop is-flex-wrap-nowrap">
-                                <h1 class="title">Oaklawn Psychiatric Center</h1>
-                                <h2 class="subtitle">Master at Arms 3rd Class Petty Officer</h2>
-                                JAN 2020 - FEB 2020
-                            </div>
-                        </div>
-
-                        <div class="columns job-responsibilities">
-                            <div class="column has-text-left">
-                                <ul>
-                                    <li>Something I did</li>
-                                    <li>Something I did</li>
-                                    <li>Something I did</li>
-                                    <li>Something I did</li>
-                                    <li>Something I did</li>
-                                    <li>Something I did</li>
-                                    <li>Something I did</li>
-                                    <li>Something I did</li>
-                                    <li>Something I did</li>
-                                    <li>Something I did</li>
-
-                                    <li>Something I did</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="column is-full-mobile is-full-tablet is-half-desktop">
-                    <JobListing/>
+                <div class="tile is-child">
+                    <JobListing v-bind:workplace="workHistory[0]"/>
                 </div>
             </div>
+
+<!--            Loop through getting all even elements-->
+            <div class="tile is-6 is-vertical is-parent">
+                <div class="tile is-child">
+                    <JobListing v-bind:workplace="workHistory[0]"/>
+                </div>
+
+                <div class="tile is-child">
+                    <JobListing v-bind:workplace="workHistory[0]"/>
+                </div>
+            </div>
+        </div>
     </section>
 </template>
 
 <script>
 import JobListing from "@/components/JobListing";
+import WorkHistory from "./../data/WorkHistory.json";
 
 // Import the job json data here
 
 export default {
-  name: 'JobSection',
-    components: {JobListing}
+    name: 'JobSection',
+    components: {JobListing},
+    data: function() {
+        return {
+            workHistory: WorkHistory.workHistory
+        }
+    }
 }
 </script>
 
 <style scoped>
+.add-padding {
+    padding: .5rem;
+}
 .job-card-header {
     background-color: lightblue;
     border-radius: 10px 10px 0 0;

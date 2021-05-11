@@ -1,0 +1,55 @@
+{
+    "workHistory": [
+        {
+            "workplace": "Ferguson",
+            "jobTitle": "Web Developer",
+            "siteURL": "https://www.theferg.com/",
+            "startDate": "April 2020",
+            "endDate": "Present",
+            "responsibilities": [
+                "Worked with PHP, MySQL, Javascript (Jquery and Node.js)",
+                "Building APIs using a Node.js environment supplying various endpoints based on client needs",
+                "Maintaining current client sites by adding new features and adjusting existing features",
+                "MySQL database management and architecture"
+            ]
+        },
+        {
+            "workplace": "Polywood",
+            "jobTitle": "Web Developer",
+            "siteURL": "",
+            "startDate": "March 2017",
+            "endDate": "March 2020",
+            "responsibilities": [
+                "Worked with PHP, MySQL, Docker, and MSSQL/Sage",
+                "Full-stack development utilizing a quasi-MVC software architectural pattern",
+                "Added new logging structure that helped save the company downtime and monetary loss",
+                "Implemented new staging project to help facilitate improved production accountability"
+            ]
+        },
+        {
+            "workplace": "Oaklawn Psychiatric Center",
+            "jobTitle": "Mental Health Associate",
+            "siteURL": "",
+            "startDate": "April 2012",
+            "endDate": "September 2014",
+            "responsibilities": [
+                "Managed new employees and taught them the necessary skills in order to succeed at Oaklawn",
+                "Watched over patients to ensure their daily requirements were met",
+                "Participated in multiple off-unit trips with patients resulting in zero incidents"
+            ]
+        },
+        {
+            "workplace": "US Navy",
+            "jobTitle": "Master at Arms 3rd Class",
+            "siteURL": "",
+            "startDate": "October 2007",
+            "endDate": "August 2011",
+            "responsibilities": [
+                "Managed a small team of military personnel resulting in no negative incidents",
+                "Communicated clearly with different people from different cultures",
+                "Completed tours in UAE and Spain",
+                "Assisted with Haiti relief in 2010 earthquake"
+            ]
+        }
+    ]
+}

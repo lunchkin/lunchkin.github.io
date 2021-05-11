@@ -2,15 +2,16 @@
     <DiagonalSection/>
     <JobSection/>
     <SkillsSection/>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+    <Footer/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+//import HelloWorld from './components/HelloWorld.vue';
 import DiagonalSection from "@/components/DiagonalSection";
 import JobSection from "@/components/JobSection";
 import SkillsSection from "@/components/SkillsSection";
+import Footer from "@/components/Footer";
 
 // TODO: See Comments below
 // About me paragraph - Put between header section and job section.
@@ -22,9 +23,10 @@ export default {
     name: 'App',
     components: {
         SkillsSection,
-        HelloWorld,
+       // HelloWorld,
         DiagonalSection,
-        JobSection
+        JobSection,
+        Footer
     }
 }
 </script>

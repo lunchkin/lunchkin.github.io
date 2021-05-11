@@ -2,7 +2,7 @@
     <section class="section">
         <div class="columns">
             <div class="column">
-                <div class="has-text-left-desktop">
+                <div class="has-text-left-desktop has-text-left-tablet">
                     <h1 class="title">Robert Kinney</h1>
                     <h2 class="subtitle">
                         Web Developer
@@ -11,25 +11,24 @@
                     </h2>
                 </div>
 
-                <div class="level has-text-centered">
-                    <div class="level-item"><a href="#">One</a></div>
-                    <div class="level-item"><a href="#">One</a></div>
-                    <div class="level-item"><a href="#">One</a></div>
-                    <div class="level-item"><a href="#">One</a></div>
-                </div>
+                <SocialMedia/>
             </div>
 
             <div class="column">
                 A picture with me
             </div>
         </div>
-
     </section>
 </template>
 
 <script>
+import SocialMedia from "@/components/SocialMedia";
+
 export default {
-  name: 'DiagonalSection'
+    name: 'DiagonalSection',
+    components: {
+        SocialMedia
+    }
 }
 </script>
 

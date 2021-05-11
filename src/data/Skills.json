@@ -1,0 +1,54 @@
+{
+    "proficientSkills": [
+        {
+            "id": 1,
+            "skillName": "",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "id": 2,
+            "skillName": "",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "id": 3,
+            "skillName": "",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "id": 4,
+            "skillName": "",
+            "link": "",
+            "description" : ""
+        }
+    ],
+    "familiarSkills": [
+        {
+            "id": 1,
+            "skillName": "",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "id": 2,
+            "skillName": "",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "id": 3,
+            "skillName": "",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "id": 4,
+            "skillName": "",
+            "link": "",
+            "description" : ""
+        }
+    ]
+}
