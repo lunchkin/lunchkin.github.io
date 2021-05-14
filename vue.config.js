@@ -3,5 +3,5 @@ module.exports = {
     //     ? '/my-resume-vue/'
     //     : '/'
 
-    publicPath: '/'
+    publicPath: '/',
 }

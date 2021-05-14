@@ -1,6 +1,7 @@
+<link rel="stylesheet" href="../../public/scss/_variables.scss">
 <template>
     <section class="section">
-        <div class="columns">
+        <div class="columns is-vcentered">
             <div class="column">
                 <div class="has-text-left-desktop has-text-left-tablet">
                     <h1 class="title">Robert Kinney</h1>
@@ -11,7 +12,11 @@
                     </h2>
                 </div>
 
-                <SocialMedia/>
+                <div class="columns is-centered is-mobile has-text-centered">
+                    <div class="column  has-text-centered-mobile  has-text-left-tablet has-text-left-desktop">
+                        <SocialMedia/>
+                    </div>
+                </div>
             </div>
 
             <div class="column">
@@ -23,7 +28,7 @@
 
 <script>
 import SocialMedia from "@/components/SocialMedia";
-
+import "@/scss/_variables.scss";
 export default {
     name: 'DiagonalSection',
     components: {
@@ -33,6 +38,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
+@import "./../scss/_variables.scss";
 
 </style>
