@@ -39,4 +39,8 @@ export default {
     text-align: center;
     color: #2c3e50;
 }
+
+.sectionHeader {
+    padding: 3rem 0;
+}
 </style>

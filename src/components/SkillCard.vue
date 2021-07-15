@@ -1,12 +1,15 @@
 <template>
     <div class="skillCard">
-        <span class="is-centered is-vcentered has-text-centered">Some Skill</span>
+        <span class="is-centered is-vcentered has-text-centered">{{ skill.name }}</span>
     </div>
 </template>
 
 <script>
 export default {
-name: "SkillCard.vue"
+    name: "SkillCard.vue",
+    props: {
+        skill: Object
+    }
 }
 </script>
 

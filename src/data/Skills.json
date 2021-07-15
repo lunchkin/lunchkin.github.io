@@ -1,52 +1,44 @@
 {
     "proficientSkills": [
         {
-            "id": 1,
-            "skillName": "",
+            "name": "PHP",
             "link": "",
             "description" : ""
         },
         {
-            "id": 2,
-            "skillName": "",
+            "name": "Javascript",
             "link": "",
             "description" : ""
         },
         {
-            "id": 3,
-            "skillName": "",
+            "name": "MySQL",
             "link": "",
             "description" : ""
         },
         {
-            "id": 4,
-            "skillName": "",
+            "name": "Customer Relations",
             "link": "",
             "description" : ""
         }
     ],
     "familiarSkills": [
         {
-            "id": 1,
-            "skillName": "",
+            "name": "C#",
             "link": "",
             "description" : ""
         },
         {
-            "id": 2,
-            "skillName": "",
+            "name": "Java",
             "link": "",
             "description" : ""
         },
         {
-            "id": 3,
-            "skillName": "",
+            "name": "Python",
             "link": "",
             "description" : ""
         },
         {
-            "id": 4,
-            "skillName": "",
+            "name": "Coldfusion",
             "link": "",
             "description" : ""
         }

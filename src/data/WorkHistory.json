@@ -1,11 +1,13 @@
 {
-    "workHistory": [
+    "workPlaces": [
         {
             "workplace": "Ferguson",
             "jobTitle": "Web Developer",
             "siteURL": "https://www.theferg.com/",
             "startDate": "April 2020",
             "endDate": "Present",
+            "showOnResume": true,
+            "imageName": "ferguson.png",
             "responsibilities": [
                 "Worked with PHP, MySQL, Javascript (Jquery and Node.js)",
                 "Building APIs using a Node.js environment supplying various endpoints based on client needs",
@@ -16,9 +18,11 @@
         {
             "workplace": "Polywood",
             "jobTitle": "Web Developer",
-            "siteURL": "",
+            "siteURL": "https://www.polywood.com/",
             "startDate": "March 2017",
             "endDate": "March 2020",
+            "showOnResume": true,
+            "imageName": "pw.png",
             "responsibilities": [
                 "Worked with PHP, MySQL, Docker, and MSSQL/Sage",
                 "Full-stack development utilizing a quasi-MVC software architectural pattern",
@@ -29,9 +33,11 @@
         {
             "workplace": "Oaklawn Psychiatric Center",
             "jobTitle": "Mental Health Associate",
-            "siteURL": "",
+            "siteURL": "https://oaklawn.org/",
             "startDate": "April 2012",
             "endDate": "September 2014",
+            "showOnResume": false,
+            "imageURL": "",
             "responsibilities": [
                 "Managed new employees and taught them the necessary skills in order to succeed at Oaklawn",
                 "Watched over patients to ensure their daily requirements were met",
@@ -41,9 +47,11 @@
         {
             "workplace": "US Navy",
             "jobTitle": "Master at Arms 3rd Class",
-            "siteURL": "",
+            "siteURL": "https://www.navy.mil/",
             "startDate": "October 2007",
             "endDate": "August 2011",
+            "showOnResume": false,
+            "imageURL": "",
             "responsibilities": [
                 "Managed a small team of military personnel resulting in no negative incidents",
                 "Communicated clearly with different people from different cultures",

@@ -1,27 +1,11 @@
 <template>
+    <div class="has-text-weight-bold is-size-2">
+        Work History
+    </div>
+
     <section class="section">
-        <div class="tile is-ancestor">
-<!--            Loop through getting all odd elements-->
-            <div class="tile is-6 is-vertical is-parent">
-                <div class="tile is-child">
-                    <JobListing v-bind:workplace="workHistory[0]"/>
-                </div>
-
-                <div class="tile is-child">
-                    <JobListing v-bind:workplace="workHistory[0]"/>
-                </div>
-            </div>
-
-<!--            Loop through getting all even elements-->
-            <div class="tile is-6 is-vertical is-parent">
-                <div class="tile is-child">
-                    <JobListing v-bind:workplace="workHistory[0]"/>
-                </div>
-
-                <div class="tile is-child">
-                    <JobListing v-bind:workplace="workHistory[0]"/>
-                </div>
-            </div>
+        <div class="container" v-if="filteredWorkPlaces">
+            <JobListing v-for="(workplace, index) in filteredWorkPlaces" v-bind:key="index" v-bind:workplace="workplace"/>
         </div>
     </section>
 </template>
@@ -35,9 +19,19 @@ import WorkHistory from "./../data/WorkHistory.json";
 export default {
     name: 'JobSection',
     components: {JobListing},
+
     data: function() {
         return {
-            workHistory: WorkHistory.workHistory
+            workPlaces: WorkHistory.workPlaces,
+            filteredWorkPlaces: [],
+        }
+    },
+
+    mounted() {
+        for (let i = 0; i < this.workPlaces.length; i++) {
+            if (this.workPlaces[i].showOnResume === true) {
+                this.filteredWorkPlaces.push(this.workPlaces[i]);
+            }
         }
     }
 }

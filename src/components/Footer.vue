@@ -7,6 +7,7 @@
                 <SocialMedia/>
             </div>
         </div>
+
     </section>
 </template>
 
@@ -23,7 +24,9 @@ export default {
 
 <style scoped>
 .Footer {
-    background-color: #2c3e50;
+    /*background-color: #2c3e50;*/
     color: #FFFFFF;
+
+    background: linear-gradient(#41c7b4 50%, #ff7c4a 50%);
 }
 </style>
