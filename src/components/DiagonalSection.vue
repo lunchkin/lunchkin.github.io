@@ -1,34 +1,5 @@
 <link rel="stylesheet" href="../../public/scss/_variables.scss">
 <template>
-<!--    <section class="section top-section">-->
-<!--        <div class="container">-->
-<!--            <div class="columns is-vcentered">-->
-<!--                <div class="column contact-holder">-->
-<!--                    <div class="contact-helper">-->
-<!--                        <div class="name-title-email">-->
-<!--                            <h1 class="title dark-text">Robert Kinney</h1>-->
-<!--                            <h2 class="subtitle">-->
-<!--                                Web Developer-->
-<!--                                <br>-->
-<!--                                rkinney333@gmail.com-->
-<!--                            </h2>-->
-<!--                        </div>-->
-
-<!--                        <div class="columns is-centered is-mobile has-text-centered about-social-media no-LR-margin">-->
-<!--                            <div class="column  has-text-centered-mobile  has-text-left-tablet has-text-left-desktop">-->
-<!--                                <SocialMedia/>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-
-<!--                <div class="column">-->
-<!--                    <img class="myPicture" src="../assets/Robert2020.jpg" height="1323" width="1324" alt="A picture of me"/>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-
     <section class="section top-section">
         <div class="container is-vcentered top-container">
             <h1 class="light-green-text title is-size-1-desktop is-size-1-tablet">Robert Kinney</h1>
@@ -36,6 +7,15 @@
             <img class="myPicture" src="../assets/Robert2020.jpg" height="1323" width="1324" alt="A picture of me"/>
             <h2 class="light-green-text subtitle is-size-4">rkinney333@gmail.com</h2>
             <SocialMedia/>
+
+            <div class="aboutMeSection">
+                <h2 class="light-green-text title is-size-1-desktop is-size-1-tablet">Hello!</h2>
+                <p class="light-green-text aboutMe has-text-left">
+                    I've always found technology to be fascinating and I'm thankful to have a skill set that allows me to explore that interest. Being able to work towards making something new, or making something better, is what drives me in this field.
+                    <br><br>
+                    The world has a lot of problems. Thankfully, a lot of those problems can be solved with the use of computers and a bit of programming knowledge. From data management to complex computations, I enjoy using technology to find solutions.
+                </p>
+            </div>
         </div>
     </section>
 </template>
@@ -64,6 +44,11 @@ export default {
 
     .dark-text {
         color: #0B0C10;
+    }
+
+    .aboutMeSection {
+        color: #66FCF1;
+        padding-top: 2em;
     }
 
     .name-title-email {

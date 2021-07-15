@@ -16,16 +16,35 @@
   color: inherit;
 }
 
-.job-picture {
+.job-picture img {
   max-height: 100px;
   max-width: 100px;
 }
 
 .new-job-listing {
-  background-color: lightblue;
   padding: .5rem;
 }
 
 .job-header {
   border-bottom: 1px solid black;
+}
+
+.job-picture {
+  &:hover {
+
+  }
+}
+
+.job-title {
+  font-weight: bold;
+  color: #1F2833;
+  text-decoration: underline;
+}
+
+.task-list {
+  list-style-type: disc;
+}
+.task-list li{
+  padding: .5rem 0;
+
 }

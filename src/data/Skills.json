@@ -1,7 +1,34 @@
 {
-    "proficientSkills": [
+    "skills": [
+        {
+            "name": "Full Stack Development",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Troubleshooting/Debugging",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Version Control",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Object Oriented Design",
+            "link": "",
+            "description" : ""
+        }
+    ],
+    "proficientProgrammingLanguages": [
         {
             "name": "PHP",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "SQL",
             "link": "",
             "description" : ""
         },
@@ -11,17 +38,17 @@
             "description" : ""
         },
         {
-            "name": "MySQL",
+            "name": "CSS & Sass",
             "link": "",
             "description" : ""
         },
         {
-            "name": "Customer Relations",
+            "name": "HTML 5",
             "link": "",
             "description" : ""
         }
     ],
-    "familiarSkills": [
+    "familiarProgrammingLanguages": [
         {
             "name": "C#",
             "link": "",
@@ -39,6 +66,38 @@
         },
         {
             "name": "Coldfusion",
+            "link": "",
+            "description" : ""
+        }
+    ],
+    "software": [
+        {
+            "name": "JetBrains Suite",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Visual Studio",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Visual Studio Code",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Android Studio",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Navicat",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Postman",
             "link": "",
             "description" : ""
         }
