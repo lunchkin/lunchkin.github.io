@@ -13,6 +13,8 @@ import JobSection from "@/components/JobSection";
 import SkillsSection from "@/components/SkillsSection";
 import Footer from "@/components/Footer";
 
+document.title = 'Robert Kinney';
+
 // TODO: See Comments below
 // About me paragraph - Put between header section and job section.
 // skills Section
