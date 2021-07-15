@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../scss/job-listing.scss">
 <template>
     <div class="job-listing shadow-box">
         <div class="columns job-card-header">
@@ -20,7 +21,8 @@
     <div class="job-listing new-job-listing">
         <div class="columns job-header is-mobile is-vcentered">
             <div class="column job-picture is-narrow">
-                <img :src="imgURL(workplace.imageName)" height="200" width="200"/>
+                <img v-bind:src="require(`../assets/workplacePictures/${workplace.imageName}`)" height="200" width="200"/>
+
             </div>
 
             <div class="column has-text-left is-6-mobile is-6-tablet">
@@ -30,54 +32,16 @@
             </div>
         </div>
         <ul class="list has-text-left">
-            <li>Something I did</li>
-            <li>Something I did</li>
-            <li>Something I did</li>
-            <li>Something I did</li>
-            <li>Something I did</li>
+            <li v-for="(task, index) in workplace.responsibilities" v-bind:key="index">{{ task }}</li>
         </ul>
     </div>
 </template>
 
 <script>
-export default {
-    name: "JobListing",
-    props: {
-        workplace: Object
-    }
-}
+import JobListing from "@/scripts/JobListing";
+export default JobListing;
 </script>
 
-<style scoped>
-.job-card-header {
-    background-color: lightblue;
-    border-radius: 10px 10px 0 0;
-}
-
-.job-responsibilities {
-    background-color: lightcoral;
-    border-radius: 0 0 10px 10px;
-}
-
-.job-listing {
-    margin: 1rem 0;
-}
-
-.title a {
-    color: inherit;
-}
-
-.job-picture {
-    max-height: 100px;
-    max-width: 100px;
-}
-
-.new-job-listing {
-    background-color: lightblue;
-    padding: .5rem;
-}
-
-.job-header {
-    border-bottom: 1px solid black;
-}
+<style lang="scss" scoped>
+@import './src/scss/job-listing.scss';
 </style>
