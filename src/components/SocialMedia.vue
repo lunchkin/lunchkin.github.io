@@ -5,11 +5,7 @@
                 <font-awesome-icon class="is-block color-facebook" :icon="{ prefix: 'fab', iconName: 'facebook-f' }"/>
             </a>
         </li>
-        <li class="is-inline-block mx-2 wh-40px">
-            <a class="block is-flex is-justify-content-center is-align-items-center	is-full-hw" href="https://twitter.com/MeRobertK">
-                <font-awesome-icon class="is-block color-twitter" :icon="{ prefix: 'fab', iconName: 'twitter' }"/>
-            </a>
-        </li>
+
         <li class="is-inline-block mx-2 wh-40px">
             <a class="block is-flex is-justify-content-center is-align-items-center	is-full-hw" href="https://github.com/lunchkin">
                 <font-awesome-icon class="is-block color-github" :icon="{ prefix: 'fab', iconName: 'github' }"/>

@@ -15,12 +15,12 @@ export default {
 
 <style scoped>
 .skillCard {
-    background-color: red;
+    background-color: #66FCF1;
     width: fit-content;
     padding: .5rem;
     display: inline-block;
     margin: .25rem;
-    color: white;
+    color: #0B0C10;
     border-radius: 5px;
 }
 </style>

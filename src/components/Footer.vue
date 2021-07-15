@@ -1,9 +1,8 @@
 <template>
     <section class="section Footer">
-        Footer
         <div class="columns">
             <div class="column">
-                <h2>Email</h2>
+                <h2 class="footerEmail">rkinney333@gmail.com</h2>
                 <SocialMedia/>
             </div>
         </div>
@@ -24,9 +23,15 @@ export default {
 
 <style scoped>
 .Footer {
-    /*background-color: #2c3e50;*/
+    background-color: #2c3e50;
     color: #FFFFFF;
 
-    background: linear-gradient(#41c7b4 50%, #ff7c4a 50%);
+    /*background: linear-gradient(#41c7b4 50%, #ff7c4a 50%);*/
+}
+
+.footerEmail {
+    padding: 1em 0;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 </style>

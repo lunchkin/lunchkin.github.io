@@ -7,9 +7,10 @@ export default {
 
     data: function() {
         return {
-            proficientSkills: skills.proficientSkills,
-            familiarSkills: skills.familiarSkills,
-            filteredWorkPlaces: [],
+            skills: skills.skills,
+            proficientProgrammingLanguages: skills.proficientProgrammingLanguages,
+            familiarProgrammingLanguages: skills.familiarProgrammingLanguages,
+            software: skills.software,
         }
     },
 }

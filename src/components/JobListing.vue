@@ -1,37 +1,20 @@
 <link rel="stylesheet" href="../scss/job-listing.scss">
 <template>
-    <div class="job-listing shadow-box">
-        <div class="columns job-card-header">
-            <div class="column has-text-left-tablet has-text-left-desktop is-flex-wrap-nowrap">
-                <h1 class="title"><a v-bind:href="workplace.siteURL">{{workplace.workplace}}</a></h1>
-                <h2 class="subtitle">{{workplace.jobTitle}}</h2>
-                {{workplace.startDate}} - {{workplace.endDate}}
-            </div>
-        </div>
-
-        <div class="columns job-responsibilities">
-            <div class="column has-text-left">
-                <ul>
-                    <li v-for="(responsibility, index) in workplace.responsibilities" :key="index">{{responsibility}}</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
     <div class="job-listing new-job-listing">
-        <div class="columns job-header is-mobile is-vcentered">
-            <div class="column job-picture is-narrow">
-                <img v-bind:src="require(`../assets/workplacePictures/${workplace.imageName}`)" height="200" width="200"/>
-
+        <div class="columns job-header is-vcentered">
+            <div class="column job-picture is-narrow-tablet is-narrow-desktop is-12-mobile">
+                <a :href="workplace.siteURL">
+                    <img class="job-image" v-bind:src="require(`../assets/workplacePictures/${workplace.imageName}`)" height="200" width="200"/>
+                </a>
             </div>
 
-            <div class="column has-text-left is-6-mobile is-6-tablet">
-                {{workplace.workplace}}
+            <div class="column has-text-left is-12-mobile is-6-tablet has-text-centered-mobile has-text-left-tablet">
+                <a class="job-title" :href="workplace.siteURL">{{workplace.workplace}}</a>
                 <br>
                 {{workplace.startDate}} - {{workplace.endDate}}
             </div>
         </div>
-        <ul class="list has-text-left">
+        <ul class="task-list list has-text-left">
             <li v-for="(task, index) in workplace.responsibilities" v-bind:key="index">{{ task }}</li>
         </ul>
     </div>

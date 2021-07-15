@@ -43,4 +43,8 @@ export default {
 .sectionHeader {
     padding: 3rem 0;
 }
+
+.section {
+    padding: 1.5rem 1.5rem !important;
+}
 </style>
