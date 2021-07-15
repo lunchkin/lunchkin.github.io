@@ -1,0 +1,31 @@
+.job-card-header {
+  background-color: lightblue;
+  border-radius: 10px 10px 0 0;
+}
+
+.job-responsibilities {
+  background-color: lightcoral;
+  border-radius: 0 0 10px 10px;
+}
+
+.job-listing {
+  margin: 1rem 0;
+}
+
+.title a {
+  color: inherit;
+}
+
+.job-picture {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.new-job-listing {
+  background-color: lightblue;
+  padding: .5rem;
+}
+
+.job-header {
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,46 @@
+{
+    "proficientSkills": [
+        {
+            "name": "PHP",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Javascript",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "MySQL",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Customer Relations",
+            "link": "",
+            "description" : ""
+        }
+    ],
+    "familiarSkills": [
+        {
+            "name": "C#",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Java",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Python",
+            "link": "",
+            "description" : ""
+        },
+        {
+            "name": "Coldfusion",
+            "link": "",
+            "description" : ""
+        }
+    ]
+}
