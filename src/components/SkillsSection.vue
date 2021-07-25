@@ -28,8 +28,22 @@
 </template>
 
 <script>
-import SkillsSection from "@/scripts/SkillsSection";
-export default SkillsSection;
+import SkillCard from "@/components/SkillCard";
+import skills from "./../data/Skills.json";
+
+export default {
+    name: "SkillsSection",
+    components: {SkillCard},
+
+    data: function() {
+        return {
+            skills: skills.skills,
+            proficientProgrammingLanguages: skills.proficientProgrammingLanguages,
+            familiarProgrammingLanguages: skills.familiarProgrammingLanguages,
+            software: skills.software,
+        }
+    },
+}
 </script>
 
 <style lang="scss" scoped>

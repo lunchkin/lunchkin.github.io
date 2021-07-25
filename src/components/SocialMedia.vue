@@ -11,6 +11,7 @@
                 <font-awesome-icon class="is-block color-github" :icon="{ prefix: 'fab', iconName: 'github' }"/>
             </a>
         </li>
+
         <li class="is-inline-block mx-2 wh-40px">
             <a class="block is-flex is-justify-content-center is-align-items-center	is-full-hw" href="https://www.linkedin.com/in/robert-kinney/">
                 <font-awesome-icon class="is-block color-linkedin" :icon="{ prefix: 'fab', iconName: 'linkedin-in' }"/>
