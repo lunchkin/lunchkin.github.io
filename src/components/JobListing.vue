@@ -21,8 +21,12 @@
 </template>
 
 <script>
-import JobListing from "@/scripts/JobListing";
-export default JobListing;
+export default {
+    name: "JobListing",
+    props: {
+        workplace: Object
+    },
+}
 </script>
 
 <style lang="scss" scoped>

@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .skillCard {
     background-color: #66FCF1;
     width: fit-content;

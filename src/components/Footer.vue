@@ -6,7 +6,6 @@
                 <SocialMedia/>
             </div>
         </div>
-
     </section>
 </template>
 
@@ -21,7 +20,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .Footer {
     background-color: #2c3e50;
     color: #FFFFFF;

@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="../../public/scss/_variables.scss">
 <template>
     <section class="section top-section">
         <div class="container is-vcentered top-container">
@@ -22,19 +21,15 @@
 
 <script>
 import SocialMedia from "@/components/SocialMedia";
-import "@/scss/_variables.scss";
 export default {
-    name: 'DiagonalSection',
+    name: 'AboutMeSection',
     components: {
         SocialMedia
     }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-@import "./../scss/_variables.scss";
-
 .top-section {
     background-color: #1F2833;
 
