@@ -1,7 +1,7 @@
 <template>
     <div class="skillsSection">
         <div class="has-text-weight-bold is-size-2">Skills</div>
-        <section class="section">
+        <section class="section container">
             <div class="columns is-multiline">
                 <div class="column is-full-mobile is-half-tablet is-half-desktop">
                     <h1>Skills</h1>
