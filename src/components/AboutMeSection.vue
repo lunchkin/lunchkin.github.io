@@ -1,14 +1,28 @@
 <template>
     <section class="section top-section">
         <div class="container is-vcentered top-container">
-            <h1 class="light-green-text title is-size-1-desktop is-size-1-tablet">Robert Kinney</h1>
-            <h2 class="light-green-text subtitle is-size-2-desktop is-size-2-tablet">Web Developer</h2>
-            <img class="myPicture" src="../assets/Robert2020.jpg" height="1323" width="1324" alt="A picture of me"/>
-            <h2 class="light-green-text subtitle is-size-4">rkinney333@gmail.com</h2>
+            <h1 class="light-green-text title is-size-1-desktop is-size-1-tablet">
+                Robert Kinney
+            </h1>
+            <h2 class="light-green-text subtitle is-size-2-desktop is-size-2-tablet">
+                Web Developer
+            </h2>
+            <img
+                class="myPicture"
+                src="../assets/Robert2020.jpg"
+                height="1323"
+                width="1324"
+                alt="A picture of me"
+            />
+            <h2 class="light-green-text subtitle is-size-4">
+                rkinney333@gmail.com
+            </h2>
             <SocialMedia/>
 
             <div class="aboutMeSection">
-                <h2 class="light-green-text title is-size-1-desktop is-size-1-tablet">Hello!</h2>
+                <h2 class="light-green-text title is-size-1-desktop is-size-1-tablet">
+                    Hello!
+                </h2>
                 <p class="light-green-text aboutMe has-text-left">
                     I've always found technology to be fascinating and I'm thankful to have a skill set that allows me to explore that interest. Being able to work towards making something new, or making something better, is what drives me in this field.
                     <br><br>

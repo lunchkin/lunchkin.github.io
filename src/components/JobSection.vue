@@ -6,7 +6,11 @@
 
         <section class="section">
             <div class="container" v-if="filteredWorkPlaces">
-                <JobListing v-for="(workplace, index) in filteredWorkPlaces" v-bind:key="index" v-bind:workplace="workplace"/>
+                <JobListing
+                    v-for="(workplace, index) in filteredWorkPlaces"
+                    v-bind:key="index"
+                    v-bind:workplace="workplace"
+                />
             </div>
         </section>
     </div>

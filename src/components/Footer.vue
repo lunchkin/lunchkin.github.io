@@ -2,7 +2,9 @@
     <section class="section Footer">
         <div class="columns">
             <div class="column">
-                <h2 class="footerEmail">rkinney333@gmail.com</h2>
+                <h2 class="footerEmail">
+                    rkinney333@gmail.com
+                </h2>
                 <SocialMedia/>
             </div>
         </div>

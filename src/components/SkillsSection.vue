@@ -5,22 +5,38 @@
             <div class="columns is-multiline">
                 <div class="column is-full-mobile is-half-tablet is-half-desktop">
                     <h1>Skills</h1>
-                    <SkillCard v-for="(skill, index) in skills" v-bind:key="index" v-bind:skill="skill"/>
+                    <SkillCard
+                        v-for="(skill, index) in skills"
+                        v-bind:key="index"
+                        v-bind:skill="skill"
+                    />
                 </div>
 
                 <div class="column is-full-mobile is-half-tablet is-half-desktop">
                     <h1>Proficient Programming Languages</h1>
-                    <SkillCard v-for="(skill, index) in proficientProgrammingLanguages" v-bind:key="index" v-bind:skill="skill"/>
+                    <SkillCard
+                        v-for="(skill, index) in proficientProgrammingLanguages"
+                        v-bind:key="index"
+                        v-bind:skill="skill"
+                    />
                 </div>
 
                 <div class="column is-full-mobile is-half-tablet is-half-desktop">
                     <h1>Familiar Programming Languages</h1>
-                    <SkillCard v-for="(skill, index) in familiarProgrammingLanguages" v-bind:key="index" v-bind:skill="skill"/>
+                    <SkillCard
+                        v-for="(skill, index) in familiarProgrammingLanguages"
+                        v-bind:key="index"
+                        v-bind:skill="skill"
+                    />
                 </div>
 
                 <div class="column is-full-mobile is-half-tablet is-half-desktop">
                     <h1>Software Used</h1>
-                    <SkillCard v-for="(skill, index) in software" v-bind:key="index" v-bind:skill="skill"/>
+                    <SkillCard
+                        v-for="(skill, index) in software"
+                        v-bind:key="index"
+                        v-bind:skill="skill"
+                    />
                 </div>
             </div>
         </section>
