@@ -1,148 +1,163 @@
 {
-    "skills": [
+    "sectionHeader" : "Skills",
+    "skillsFull": [
         {
-            "name": "Full Stack Development",
-            "imageSlug": "programming",
-            "link": "https://www.geeksforgeeks.org/what-is-full-stack-development/",
-            "description" : "Development of both frontend, backend, and database of a website or application."
+            "name": "General Skills",
+            "skills": [
+                {
+                    "name": "Full Stack Development",
+                    "imageSlug": "programming",
+                    "link": "https://www.geeksforgeeks.org/what-is-full-stack-development/",
+                    "description" : "Development of both frontend, backend, and database of a website or application."
+                },
+                {
+                    "name": "Troubleshooting/Debugging",
+                    "imageSlug": "debugging",
+                    "link": "https://en.wikipedia.org/wiki/Debugging",
+                    "description" : ""
+                },
+                {
+                    "name": "Version Control",
+                    "imageSlug": "git",
+                    "link": "https://git-scm.com/",
+                    "description" : "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+                },
+                {
+                    "name": "Object Oriented Design",
+                    "imageSlug": "programming",
+                    "link": "https://www.educative.io/blog/object-oriented-programming",
+                    "description" : ""
+                },
+                {
+                    "name": "Node.js",
+                    "imageSlug": "nodejs",
+                    "link": "https://nodejs.org/en/",
+                    "description" : "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine."
+                }
+            ]
         },
         {
-            "name": "Troubleshooting/Debugging",
-            "imageSlug": "debugging",
-            "link": "https://en.wikipedia.org/wiki/Debugging",
-            "description" : ""
+            "name": "Proficient Programming Languages",
+            "skills": [
+                {
+                    "name": "Vue",
+                    "imageSlug": "vue",
+                    "link": "https://vuejs.org/",
+                    "description" : "Web framework for building user interfaces."
+                },
+                {
+                    "name": "PHP",
+                    "imageSlug": "php",
+                    "link": "https://www.php.net/",
+                    "description" : "A popular general-purpose scripting language that is especially suited to web development."
+                },
+                {
+                    "name": "MySQL",
+                    "imageSlug": "mysql",
+                    "link": "https://www.mysql.com/",
+                    "description" : "MySQL is an open-source relational database management system."
+                },
+                {
+                    "name": "Javascript",
+                    "imageSlug": "js",
+                    "link": "https://www.javascript.com/",
+                    "description" : "JavaScript is a scripting or programming language that allows you to implement complex features on web pages."
+                },
+                {
+                    "name": "Typescript",
+                    "imageSlug": "typescript",
+                    "link": "https://www.typescriptlang.org/",
+                    "description" : "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
+                },
+                {
+                    "name": "CSS/Sass",
+                    "imageSlug": "sass",
+                    "link": "https://sass-lang.com/",
+                    "description" : "CSS with superpowers"
+                },
+                {
+                    "name": "HTML 5",
+                    "imageSlug": "html5",
+                    "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
+                    "description" : "Markup language used for structuring and presenting content on the World Wide Web."
+                }
+            ]
         },
         {
-            "name": "Version Control",
-            "imageSlug": "git",
-            "link": "https://git-scm.com/",
-            "description" : "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+            "name": "Familiar Programming Languages",
+            "skills" : [
+                {
+                    "name": "React",
+                    "imageSlug": "react",
+                    "link": "https://reactjs.org/",
+                    "description" : "A JavaScript library for building user interfaces."
+                },
+                {
+                    "name": "C#",
+                    "imageSlug": "csharp",
+                    "link": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+                    "description" : "C# (pronounced 'See Sharp') is a modern, object-oriented, and type-safe programming language."
+                },
+                {
+                    "name": "Java",
+                    "imageSlug": "java",
+                    "link": "https://www.java.com/en/",
+                    "description" : ""
+                },
+                {
+                    "name": "Python",
+                    "imageSlug": "python",
+                    "link": "https://www.python.org/",
+                    "description" : "Python is a programming language that lets you work quickly and integrate systems more effectively."
+                }
+            ]
         },
         {
-            "name": "Object Oriented Design",
-            "imageSlug": "programming",
-            "link": "https://www.educative.io/blog/object-oriented-programming",
-            "description" : ""
-        },
-        {
-            "name": "Node.js",
-            "imageSlug": "nodejs",
-            "link": "https://nodejs.org/en/",
-            "description" : "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine."
-        }
-    ],
-    "proficientProgrammingLanguages": [
-        {
-            "name": "Vue",
-            "imageSlug": "vue",
-            "link": "https://vuejs.org/",
-            "description" : "Web framework for building user interfaces."
-        },
-        {
-            "name": "PHP",
-            "imageSlug": "php",
-            "link": "https://www.php.net/",
-            "description" : "A popular general-purpose scripting language that is especially suited to web development."
-        },
-        {
-            "name": "MySQL",
-            "imageSlug": "mysql",
-            "link": "https://www.mysql.com/",
-            "description" : "MySQL is an open-source relational database management system."
-        },
-        {
-            "name": "Javascript",
-            "imageSlug": "js",
-            "link": "https://www.javascript.com/",
-            "description" : "JavaScript is a scripting or programming language that allows you to implement complex features on web pages."
-        },
-        {
-            "name": "Typescript",
-            "imageSlug": "typescript",
-            "link": "https://www.typescriptlang.org/",
-            "description" : "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale."
-        },
-        {
-            "name": "CSS/Sass",
-            "imageSlug": "sass",
-            "link": "https://sass-lang.com/",
-            "description" : "CSS with superpowers"
-        },
-        {
-            "name": "HTML 5",
-            "imageSlug": "html5",
-            "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
-            "description" : "Markup language used for structuring and presenting content on the World Wide Web."
-        }
-    ],
-    "familiarProgrammingLanguages": [
-        {
-            "name": "React",
-            "imageSlug": "react",
-            "link": "https://reactjs.org/",
-            "description" : "A JavaScript library for building user interfaces."
-        },
-        {
-            "name": "C#",
-            "imageSlug": "csharp",
-            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/",
-            "description" : "C# (pronounced 'See Sharp') is a modern, object-oriented, and type-safe programming language."
-        },
-        {
-            "name": "Java",
-            "imageSlug": "java",
-            "link": "https://www.java.com/en/",
-            "description" : ""
-        },
-        {
-            "name": "Python",
-            "imageSlug": "python",
-            "link": "https://www.python.org/",
-            "description" : "Python is a programming language that lets you work quickly and integrate systems more effectively."
-        }
-    ],
-    "software": [
-        {
-            "name": "JetBrains Suite",
-            "imageSlug": "jetbrains",
-            "link": "https://www.jetbrains.com/",
-            "description" : ""
-        },
-        {
-            "name": "Visual Studio",
-            "imageSlug": "visualStudio",
-            "link": "https://visualstudio.microsoft.com/",
-            "description" : "Primary Microsoft IDE."
-        },
-        {
-            "name": "Visual Studio Code",
-            "imageSlug": "vscode",
-            "link": "https://code.visualstudio.com/",
-            "description" : "Lightweight but powerful source code editor."
-        },
-        {
-            "name": "Android Studio",
-            "imageSlug": "androidStudio",
-            "link": "https://developer.android.com/studio",
-            "description" : "Tool for building Android apps."
-        },
-        {
-            "name": "Navicat",
-            "imageSlug": "navicat",
-            "link": "https://www.navicat.com/en/",
-            "description" : "Database development tool."
-        },
-        {
-            "name": "Postman",
-            "imageSlug": "postman",
-            "link": "https://www.postman.com/",
-            "description" : "Postman is an API client that makes it easy to create, share, test, and document APIs."
-        },
-        {
-            "name": "Docker",
-            "imageSlug": "docker",
-            "link": "https://www.docker.com/",
-            "description" : "Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers."
+            "name" : "Software Used",
+            "skills" : [
+                {
+                    "name": "JetBrains Suite",
+                    "imageSlug": "jetbrains",
+                    "link": "https://www.jetbrains.com/",
+                    "description" : ""
+                },
+                {
+                    "name": "Visual Studio",
+                    "imageSlug": "visualStudio",
+                    "link": "https://visualstudio.microsoft.com/",
+                    "description" : "Primary Microsoft IDE."
+                },
+                {
+                    "name": "Visual Studio Code",
+                    "imageSlug": "vscode",
+                    "link": "https://code.visualstudio.com/",
+                    "description" : "Lightweight but powerful source code editor."
+                },
+                {
+                    "name": "Android Studio",
+                    "imageSlug": "androidStudio",
+                    "link": "https://developer.android.com/studio",
+                    "description" : "Tool for building Android apps."
+                },
+                {
+                    "name": "Navicat",
+                    "imageSlug": "navicat",
+                    "link": "https://www.navicat.com/en/",
+                    "description" : "Database development tool."
+                },
+                {
+                    "name": "Postman",
+                    "imageSlug": "postman",
+                    "link": "https://www.postman.com/",
+                    "description" : "Postman is an API client that makes it easy to create, share, test, and document APIs."
+                },
+                {
+                    "name": "Docker",
+                    "imageSlug": "docker",
+                    "link": "https://www.docker.com/",
+                    "description" : "Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers."
+                }
+            ]
         }
     ]
 }

@@ -1,6 +1,8 @@
 <template>
     <div class="skillCard">
-        <span class="is-centered is-vcentered has-text-centered">{{ skill.name }}</span>
+        <span class="is-centered is-vcentered has-text-centered">
+            {{ skill.name }}
+        </span>
     </div>
 </template>
 

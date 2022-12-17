@@ -11,7 +11,9 @@
             >
         </figure>
 
-        <p class="skillName">{{name}}</p>
+        <p class="skillName">
+            {{name}}
+        </p>
     </a>
 </template>
 
@@ -46,6 +48,10 @@ defineProps({
     margin: 0 auto;
 }
 
+.skill-image {
+    cursor: pointer;
+}
+
 @media only screen and (min-width: 1024px) {
     .skillImageContainer {
         -webkit-filter: grayscale(100%);
@@ -57,6 +63,18 @@ defineProps({
             filter: grayscale(0%);
             transform: scale(1.1);
             text-decoration: underline
+        }
+    }
+
+    .skill-image {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        transition: transform .2s;
+
+        &:hover {
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            transform: scale(1.1);
         }
     }
 }
